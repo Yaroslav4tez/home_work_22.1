@@ -15,7 +15,11 @@ module.exports = {
       { test: /\.(png|jpe?g|gif|svg)$/i, type: 'asset/resource' }
     ]
   },
-plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' })
-]
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html', 
+      filename: 'index.html',     
+      inject: 'body'               
+    })
+  ]
 };
