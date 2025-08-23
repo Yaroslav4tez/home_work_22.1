@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 60%;
+  margin: 40px auto; 
+  padding: 20px;
+
+  border: 2px solid #0c0c15;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+
+#picture-of-Weather {
+    width: 100px;
+    height: auto;
+}
+
+#container1 {
+    padding-top: 70px;
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+#container2 {
+    padding-top: 20px;
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+#btnForReload {
+    color: aliceblue;
+    background-color: rgb(31, 25, 67);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#btnForReload:hover {
+    background-color: rgb(50, 45, 90);
+}
